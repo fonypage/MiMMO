@@ -1,0 +1,1228 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/fonyp/ontologies/2025/11/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/fonyp/ontologies/2025/11/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/fonyp/ontologies/2025/11/untitled-ontology-2/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Balkon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Byudzhet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dizaynerskiy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elektrika"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Etap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FinansOtchet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gostinaya"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instrumenty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kachestvo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kapitalniy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Komnata"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Koridor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kosmeticheskiy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kuhnya"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kvartira"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lokalniy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Materialy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MebelVstroennyeElementy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normativy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObektRemonta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ofis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ogranicheniya"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OknaIDveri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtdelkaPola"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtdelkaSten"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlanRemonta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Potolok"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PozitsiyaSmety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Remont"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resursy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiskSkrytyhDefektov"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiskUdorozhaniya"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiskZaderzhki"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiskZhalobSosedey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Riski"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Santekhnika"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smeta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spalnya"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specialisty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sroki"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StoimostMaterialov"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StoimostRabot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TipRemonta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VannayaSanuzel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VidRabot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zadacha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZavisimostZadach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZonaRabot"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#etapSoderzhitZadachi"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#obektSostoitIzZon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ogranicheniyaUchityvayutsyaVPlane"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#planSostoitIzEtapov"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pozitsiyaSmetyImeetStoimostMaterialov"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pozitsiyaSmetyImeetStoimostRabot"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#remontImeetObekt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#remontImeetOgranichenie"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#remontImeetPlan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#remontImeetRisk"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#remontImeetSmetu"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#remontImeetTip"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#remontImeetZonu"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#riskiVliyayutNaOgranicheniya"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#smetaFormiruetFinansOtchet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#smetaImeetStoimostMaterialov"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#smetaImeetStoimostRabot"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#smetaSoderzhitPozitsii"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#smetaSopostavlyaetsyaSByudzhetom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tipRemontaVklyuchaetVidRabot"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#vidRabotTrebuetResursy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#vidRabotVZone"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#zadachaImeetZavisimosti"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#zadachaOtnositsyaKZone"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#zadachaRealizuetVidRabot"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#byudzhetSumma"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pozitsiyaSmetyCenaZaEdinitsu"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pozitsiyaSmetyEdinitsaIzmereniya"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pozitsiyaSmetyKolichestvo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pozitsiyaSmetyNazvanie"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#srokiDataNachala"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#srokiDataOkonchaniya"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#stoimostMaterialovSumma"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#stoimostRabotSumma"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#zadachaDlitelnostDney"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#zadachaNazvanie"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#zadachaStatus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Byudzhet_Kvartira1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Etap_Chernovye_Kv1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Etap_Demontazh_Kv1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Etap_Otdelka_Kv1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FinansOtchet_Kv1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kvartira1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OtdelkaPola1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OtdelkaSten1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Plan_Kvartira1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Remont_Kvartira1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Smeta_Kvartira1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sroki_Kvartira1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StoimostMaterialov_Kv1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StoimostRabot_Kv1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tip_Kosmeticheskiy1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zadacha_DemontazhPol_Kv1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zadacha_DemontazhSten_Kv1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zadacha_GruntovkaSten_Kv1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zadacha_PokraskaSten_Kv1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zadacha_Pol_Kv1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zadacha_VyravnivanieSten_Kv1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zona_Kuhnya1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zona_Vannaya1"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Balkon"/>
+        <Class IRI="#ZonaRabot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Byudzhet"/>
+        <Class IRI="#Ogranicheniya"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dizaynerskiy"/>
+        <Class IRI="#TipRemonta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dom"/>
+        <Class IRI="#ObektRemonta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elektrika"/>
+        <Class IRI="#VidRabot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gostinaya"/>
+        <Class IRI="#ZonaRabot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Instrumenty"/>
+        <Class IRI="#Resursy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kachestvo"/>
+        <Class IRI="#Ogranicheniya"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kapitalniy"/>
+        <Class IRI="#TipRemonta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Komnata"/>
+        <Class IRI="#ObektRemonta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Koridor"/>
+        <Class IRI="#ZonaRabot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kosmeticheskiy"/>
+        <Class IRI="#TipRemonta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kuhnya"/>
+        <Class IRI="#ZonaRabot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kvartira"/>
+        <Class IRI="#ObektRemonta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lokalniy"/>
+        <Class IRI="#TipRemonta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Materialy"/>
+        <Class IRI="#Resursy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MebelVstroennyeElementy"/>
+        <Class IRI="#VidRabot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normativy"/>
+        <Class IRI="#Ogranicheniya"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ofis"/>
+        <Class IRI="#ObektRemonta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OknaIDveri"/>
+        <Class IRI="#VidRabot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtdelkaPola"/>
+        <Class IRI="#VidRabot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtdelkaSten"/>
+        <Class IRI="#VidRabot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Potolok"/>
+        <Class IRI="#VidRabot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiskSkrytyhDefektov"/>
+        <Class IRI="#Riski"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiskUdorozhaniya"/>
+        <Class IRI="#Riski"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiskZaderzhki"/>
+        <Class IRI="#Riski"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiskZhalobSosedey"/>
+        <Class IRI="#Riski"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Santekhnika"/>
+        <Class IRI="#VidRabot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spalnya"/>
+        <Class IRI="#ZonaRabot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specialisty"/>
+        <Class IRI="#Resursy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sroki"/>
+        <Class IRI="#Ogranicheniya"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VannayaSanuzel"/>
+        <Class IRI="#ZonaRabot"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Byudzhet"/>
+        <NamedIndividual IRI="#Byudzhet_Kvartira1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Etap"/>
+        <NamedIndividual IRI="#Etap_Chernovye_Kv1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Etap"/>
+        <NamedIndividual IRI="#Etap_Demontazh_Kv1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Etap"/>
+        <NamedIndividual IRI="#Etap_Otdelka_Kv1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FinansOtchet"/>
+        <NamedIndividual IRI="#FinansOtchet_Kv1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kvartira"/>
+        <NamedIndividual IRI="#Kvartira1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OtdelkaPola"/>
+        <NamedIndividual IRI="#OtdelkaPola1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OtdelkaSten"/>
+        <NamedIndividual IRI="#OtdelkaSten1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PlanRemonta"/>
+        <NamedIndividual IRI="#Plan_Kvartira1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Remont"/>
+        <NamedIndividual IRI="#Remont_Kvartira1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Smeta"/>
+        <NamedIndividual IRI="#Smeta_Kvartira1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sroki"/>
+        <NamedIndividual IRI="#Sroki_Kvartira1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StoimostMaterialov"/>
+        <NamedIndividual IRI="#StoimostMaterialov_Kv1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StoimostRabot"/>
+        <NamedIndividual IRI="#StoimostRabot_Kv1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kosmeticheskiy"/>
+        <NamedIndividual IRI="#Tip_Kosmeticheskiy1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zadacha"/>
+        <NamedIndividual IRI="#Zadacha_DemontazhPol_Kv1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zadacha"/>
+        <NamedIndividual IRI="#Zadacha_DemontazhSten_Kv1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zadacha"/>
+        <NamedIndividual IRI="#Zadacha_GruntovkaSten_Kv1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zadacha"/>
+        <NamedIndividual IRI="#Zadacha_PokraskaSten_Kv1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zadacha"/>
+        <NamedIndividual IRI="#Zadacha_Pol_Kv1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zadacha"/>
+        <NamedIndividual IRI="#Zadacha_VyravnivanieSten_Kv1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kuhnya"/>
+        <NamedIndividual IRI="#Zona_Kuhnya1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VannayaSanuzel"/>
+        <NamedIndividual IRI="#Zona_Vannaya1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#etapSoderzhitZadachi"/>
+        <NamedIndividual IRI="#Etap_Chernovye_Kv1"/>
+        <NamedIndividual IRI="#Zadacha_GruntovkaSten_Kv1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#etapSoderzhitZadachi"/>
+        <NamedIndividual IRI="#Etap_Chernovye_Kv1"/>
+        <NamedIndividual IRI="#Zadacha_VyravnivanieSten_Kv1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#etapSoderzhitZadachi"/>
+        <NamedIndividual IRI="#Etap_Demontazh_Kv1"/>
+        <NamedIndividual IRI="#Zadacha_DemontazhPol_Kv1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#etapSoderzhitZadachi"/>
+        <NamedIndividual IRI="#Etap_Demontazh_Kv1"/>
+        <NamedIndividual IRI="#Zadacha_DemontazhSten_Kv1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#etapSoderzhitZadachi"/>
+        <NamedIndividual IRI="#Etap_Otdelka_Kv1"/>
+        <NamedIndividual IRI="#Zadacha_PokraskaSten_Kv1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#etapSoderzhitZadachi"/>
+        <NamedIndividual IRI="#Etap_Otdelka_Kv1"/>
+        <NamedIndividual IRI="#Zadacha_Pol_Kv1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#obektSostoitIzZon"/>
+        <NamedIndividual IRI="#Kvartira1"/>
+        <NamedIndividual IRI="#Zona_Kuhnya1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#obektSostoitIzZon"/>
+        <NamedIndividual IRI="#Kvartira1"/>
+        <NamedIndividual IRI="#Zona_Vannaya1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#planSostoitIzEtapov"/>
+        <NamedIndividual IRI="#Plan_Kvartira1"/>
+        <NamedIndividual IRI="#Etap_Chernovye_Kv1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#planSostoitIzEtapov"/>
+        <NamedIndividual IRI="#Plan_Kvartira1"/>
+        <NamedIndividual IRI="#Etap_Demontazh_Kv1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#planSostoitIzEtapov"/>
+        <NamedIndividual IRI="#Plan_Kvartira1"/>
+        <NamedIndividual IRI="#Etap_Otdelka_Kv1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#remontImeetObekt"/>
+        <NamedIndividual IRI="#Remont_Kvartira1"/>
+        <NamedIndividual IRI="#Kvartira1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#remontImeetOgranichenie"/>
+        <NamedIndividual IRI="#Remont_Kvartira1"/>
+        <NamedIndividual IRI="#Byudzhet_Kvartira1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#remontImeetOgranichenie"/>
+        <NamedIndividual IRI="#Remont_Kvartira1"/>
+        <NamedIndividual IRI="#Sroki_Kvartira1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#remontImeetPlan"/>
+        <NamedIndividual IRI="#Remont_Kvartira1"/>
+        <NamedIndividual IRI="#Plan_Kvartira1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#remontImeetSmetu"/>
+        <NamedIndividual IRI="#Remont_Kvartira1"/>
+        <NamedIndividual IRI="#Smeta_Kvartira1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#remontImeetTip"/>
+        <NamedIndividual IRI="#Remont_Kvartira1"/>
+        <NamedIndividual IRI="#Tip_Kosmeticheskiy1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#remontImeetZonu"/>
+        <NamedIndividual IRI="#Remont_Kvartira1"/>
+        <NamedIndividual IRI="#Zona_Kuhnya1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#remontImeetZonu"/>
+        <NamedIndividual IRI="#Remont_Kvartira1"/>
+        <NamedIndividual IRI="#Zona_Vannaya1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#smetaFormiruetFinansOtchet"/>
+        <NamedIndividual IRI="#Smeta_Kvartira1"/>
+        <NamedIndividual IRI="#FinansOtchet_Kv1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#smetaImeetStoimostMaterialov"/>
+        <NamedIndividual IRI="#Smeta_Kvartira1"/>
+        <NamedIndividual IRI="#StoimostMaterialov_Kv1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#smetaImeetStoimostRabot"/>
+        <NamedIndividual IRI="#Smeta_Kvartira1"/>
+        <NamedIndividual IRI="#StoimostRabot_Kv1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#smetaSopostavlyaetsyaSByudzhetom"/>
+        <NamedIndividual IRI="#Smeta_Kvartira1"/>
+        <NamedIndividual IRI="#Byudzhet_Kvartira1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zadachaOtnositsyaKZone"/>
+        <NamedIndividual IRI="#Zadacha_DemontazhPol_Kv1"/>
+        <NamedIndividual IRI="#Zona_Kuhnya1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zadachaRealizuetVidRabot"/>
+        <NamedIndividual IRI="#Zadacha_DemontazhPol_Kv1"/>
+        <NamedIndividual IRI="#OtdelkaPola1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zadachaOtnositsyaKZone"/>
+        <NamedIndividual IRI="#Zadacha_DemontazhSten_Kv1"/>
+        <NamedIndividual IRI="#Zona_Vannaya1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zadachaRealizuetVidRabot"/>
+        <NamedIndividual IRI="#Zadacha_DemontazhSten_Kv1"/>
+        <NamedIndividual IRI="#OtdelkaSten1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zadachaOtnositsyaKZone"/>
+        <NamedIndividual IRI="#Zadacha_GruntovkaSten_Kv1"/>
+        <NamedIndividual IRI="#Zona_Kuhnya1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zadachaRealizuetVidRabot"/>
+        <NamedIndividual IRI="#Zadacha_GruntovkaSten_Kv1"/>
+        <NamedIndividual IRI="#OtdelkaSten1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zadachaOtnositsyaKZone"/>
+        <NamedIndividual IRI="#Zadacha_PokraskaSten_Kv1"/>
+        <NamedIndividual IRI="#Zona_Kuhnya1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zadachaRealizuetVidRabot"/>
+        <NamedIndividual IRI="#Zadacha_PokraskaSten_Kv1"/>
+        <NamedIndividual IRI="#OtdelkaSten1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zadachaOtnositsyaKZone"/>
+        <NamedIndividual IRI="#Zadacha_Pol_Kv1"/>
+        <NamedIndividual IRI="#Zona_Vannaya1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zadachaRealizuetVidRabot"/>
+        <NamedIndividual IRI="#Zadacha_Pol_Kv1"/>
+        <NamedIndividual IRI="#OtdelkaPola1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zadachaOtnositsyaKZone"/>
+        <NamedIndividual IRI="#Zadacha_VyravnivanieSten_Kv1"/>
+        <NamedIndividual IRI="#Zona_Kuhnya1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zadachaRealizuetVidRabot"/>
+        <NamedIndividual IRI="#Zadacha_VyravnivanieSten_Kv1"/>
+        <NamedIndividual IRI="#OtdelkaSten1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#byudzhetSumma"/>
+        <NamedIndividual IRI="#Byudzhet_Kvartira1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">500000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#srokiDataNachala"/>
+        <NamedIndividual IRI="#Sroki_Kvartira1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2025-03-01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#srokiDataOkonchaniya"/>
+        <NamedIndividual IRI="#Sroki_Kvartira1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2025-06-01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#stoimostMaterialovSumma"/>
+        <NamedIndividual IRI="#StoimostMaterialov_Kv1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">220000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#stoimostRabotSumma"/>
+        <NamedIndividual IRI="#StoimostRabot_Kv1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">310000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#zadachaDlitelnostDney"/>
+        <NamedIndividual IRI="#Zadacha_DemontazhPol_Kv1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#zadachaNazvanie"/>
+        <NamedIndividual IRI="#Zadacha_DemontazhPol_Kv1"/>
+        <Literal>Демонтаж пола</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#zadachaDlitelnostDney"/>
+        <NamedIndividual IRI="#Zadacha_DemontazhSten_Kv1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#zadachaNazvanie"/>
+        <NamedIndividual IRI="#Zadacha_DemontazhSten_Kv1"/>
+        <Literal>Демонтаж облицовки стен</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#zadachaDlitelnostDney"/>
+        <NamedIndividual IRI="#Zadacha_GruntovkaSten_Kv1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#zadachaNazvanie"/>
+        <NamedIndividual IRI="#Zadacha_GruntovkaSten_Kv1"/>
+        <Literal>Грунтовка стен</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#zadachaDlitelnostDney"/>
+        <NamedIndividual IRI="#Zadacha_PokraskaSten_Kv1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#zadachaNazvanie"/>
+        <NamedIndividual IRI="#Zadacha_PokraskaSten_Kv1"/>
+        <Literal>Покраска стен</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#zadachaDlitelnostDney"/>
+        <NamedIndividual IRI="#Zadacha_Pol_Kv1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#zadachaNazvanie"/>
+        <NamedIndividual IRI="#Zadacha_Pol_Kv1"/>
+        <Literal>Укладка напольного покрытия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#zadachaDlitelnostDney"/>
+        <NamedIndividual IRI="#Zadacha_VyravnivanieSten_Kv1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#zadachaNazvanie"/>
+        <NamedIndividual IRI="#Zadacha_VyravnivanieSten_Kv1"/>
+        <Literal>Выравнивание стен</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#etapSoderzhitZadachi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#etapSoderzhitZadachi"/>
+            <Class IRI="#Etap"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#obektSostoitIzZon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#obektSostoitIzZon"/>
+            <Class IRI="#ObektRemonta"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ogranicheniyaUchityvayutsyaVPlane"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ogranicheniyaUchityvayutsyaVPlane"/>
+            <Class IRI="#Ogranicheniya"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#planSostoitIzEtapov"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#planSostoitIzEtapov"/>
+            <Class IRI="#PlanRemonta"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pozitsiyaSmetyImeetStoimostMaterialov"/>
+        <Class IRI="#PozitsiyaSmety"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pozitsiyaSmetyImeetStoimostRabot"/>
+        <Class IRI="#PozitsiyaSmety"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#remontImeetObekt"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#remontImeetObekt"/>
+            <Class IRI="#Remont"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#remontImeetOgranichenie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#remontImeetOgranichenie"/>
+            <Class IRI="#Remont"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#remontImeetPlan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#remontImeetPlan"/>
+            <Class IRI="#Remont"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#remontImeetRisk"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#remontImeetRisk"/>
+            <Class IRI="#Remont"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#remontImeetSmetu"/>
+        <Class IRI="#Remont"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#remontImeetTip"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#remontImeetTip"/>
+            <Class IRI="#Remont"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#remontImeetZonu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#remontImeetZonu"/>
+            <Class IRI="#Remont"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#riskiVliyayutNaOgranicheniya"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#riskiVliyayutNaOgranicheniya"/>
+            <Class IRI="#Riski"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#smetaFormiruetFinansOtchet"/>
+        <Class IRI="#Smeta"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#smetaImeetStoimostMaterialov"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#smetaImeetStoimostMaterialov"/>
+            <Class IRI="#Smeta"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#smetaImeetStoimostRabot"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#smetaImeetStoimostRabot"/>
+            <Class IRI="#Smeta"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#smetaSoderzhitPozitsii"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#smetaSoderzhitPozitsii"/>
+            <Class IRI="#Smeta"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#smetaSopostavlyaetsyaSByudzhetom"/>
+        <Class IRI="#Smeta"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tipRemontaVklyuchaetVidRabot"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tipRemontaVklyuchaetVidRabot"/>
+            <Class IRI="#TipRemonta"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#vidRabotTrebuetResursy"/>
+        <Class IRI="#VidRabot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#vidRabotVZone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#vidRabotVZone"/>
+            <Class IRI="#VidRabot"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#zadachaImeetZavisimosti"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#zadachaImeetZavisimosti"/>
+            <Class IRI="#Zadacha"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#zadachaOtnositsyaKZone"/>
+        <Class IRI="#Zadacha"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#zadachaRealizuetVidRabot"/>
+        <Class IRI="#Zadacha"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#etapSoderzhitZadachi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#etapSoderzhitZadachi"/>
+            <Class IRI="#Zadacha"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#obektSostoitIzZon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#obektSostoitIzZon"/>
+            <Class IRI="#ZonaRabot"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ogranicheniyaUchityvayutsyaVPlane"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ogranicheniyaUchityvayutsyaVPlane"/>
+            <Class IRI="#PlanRemonta"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#planSostoitIzEtapov"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#planSostoitIzEtapov"/>
+            <Class IRI="#Etap"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pozitsiyaSmetyImeetStoimostMaterialov"/>
+        <Class IRI="#StoimostMaterialov"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pozitsiyaSmetyImeetStoimostRabot"/>
+        <Class IRI="#StoimostRabot"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#remontImeetObekt"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#remontImeetObekt"/>
+            <Class IRI="#ObektRemonta"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#remontImeetOgranichenie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#remontImeetOgranichenie"/>
+            <Class IRI="#Ogranicheniya"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#remontImeetPlan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#remontImeetPlan"/>
+            <Class IRI="#PlanRemonta"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#remontImeetRisk"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#remontImeetRisk"/>
+            <Class IRI="#Riski"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#remontImeetSmetu"/>
+        <Class IRI="#Smeta"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#remontImeetTip"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#remontImeetTip"/>
+            <Class IRI="#TipRemonta"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#remontImeetZonu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#remontImeetZonu"/>
+            <Class IRI="#ZonaRabot"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#riskiVliyayutNaOgranicheniya"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#riskiVliyayutNaOgranicheniya"/>
+            <Class IRI="#Ogranicheniya"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#smetaFormiruetFinansOtchet"/>
+        <Class IRI="#FinansOtchet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#smetaImeetStoimostMaterialov"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#smetaImeetStoimostMaterialov"/>
+            <Class IRI="#StoimostMaterialov"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#smetaImeetStoimostRabot"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#smetaImeetStoimostRabot"/>
+            <Class IRI="#StoimostRabot"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#smetaSoderzhitPozitsii"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#smetaSoderzhitPozitsii"/>
+            <Class IRI="#PozitsiyaSmety"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#smetaSopostavlyaetsyaSByudzhetom"/>
+        <Class IRI="#Byudzhet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tipRemontaVklyuchaetVidRabot"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tipRemontaVklyuchaetVidRabot"/>
+            <Class IRI="#VidRabot"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#vidRabotTrebuetResursy"/>
+        <Class IRI="#Resursy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#vidRabotVZone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#vidRabotVZone"/>
+            <Class IRI="#ZonaRabot"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#zadachaImeetZavisimosti"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#zadachaImeetZavisimosti"/>
+            <Class IRI="#ZavisimostZadach"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#zadachaOtnositsyaKZone"/>
+        <Class IRI="#ZonaRabot"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#zadachaRealizuetVidRabot"/>
+        <Class IRI="#VidRabot"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#byudzhetSumma"/>
+        <Class IRI="#Byudzhet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#pozitsiyaSmetyCenaZaEdinitsu"/>
+        <Class IRI="#PozitsiyaSmety"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#pozitsiyaSmetyEdinitsaIzmereniya"/>
+        <Class IRI="#PozitsiyaSmety"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#pozitsiyaSmetyKolichestvo"/>
+        <Class IRI="#PozitsiyaSmety"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#pozitsiyaSmetyNazvanie"/>
+        <Class IRI="#PozitsiyaSmety"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#srokiDataNachala"/>
+        <Class IRI="#Sroki"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#srokiDataOkonchaniya"/>
+        <Class IRI="#Sroki"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#stoimostMaterialovSumma"/>
+        <Class IRI="#StoimostMaterialov"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#stoimostRabotSumma"/>
+        <Class IRI="#StoimostRabot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#zadachaDlitelnostDney"/>
+        <Class IRI="#Zadacha"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#zadachaNazvanie"/>
+        <Class IRI="#Zadacha"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#zadachaStatus"/>
+        <Class IRI="#Zadacha"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#byudzhetSumma"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#pozitsiyaSmetyCenaZaEdinitsu"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#pozitsiyaSmetyEdinitsaIzmereniya"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#pozitsiyaSmetyKolichestvo"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#pozitsiyaSmetyNazvanie"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#srokiDataNachala"/>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#srokiDataOkonchaniya"/>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#stoimostMaterialovSumma"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#stoimostRabotSumma"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#zadachaDlitelnostDney"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#zadachaNazvanie"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#zadachaStatus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

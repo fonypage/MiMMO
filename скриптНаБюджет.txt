@@ -1,0 +1,17 @@
+PREFIX :    <http://www.semanticweb.org/fonyp/ontologies/2025/11/untitled-ontology-2#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?budget ?mat ?work (?mat + ?work AS ?total) ((?mat + ?work) - ?budget AS ?over)
+WHERE {
+  :Remont_Kvartira1 :remontImeetOgranichenie :Byudzhet_Kvartira1 .
+  :Remont_Kvartira1 :remontImeetSmetu ?smeta .
+
+  :Byudzhet_Kvartira1 :byudzhetSumma ?budget .
+
+  ?smeta :smetaImeetStoimostMaterialov ?smMat .
+  ?smeta :smetaImeetStoimostRabot ?smRab .
+
+  ?smMat :stoimostMaterialovSumma ?mat .
+  ?smRab :stoimostRabotSumma ?work .
+}
