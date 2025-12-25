@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net"><diagram name="HotelBooking Architecture">
+&lt;mxGraphModel&gt;
+  &lt;root&gt;
+    &lt;mxCell id="0"/&gt;
+    &lt;mxCell id="1" parent="0"/&gt;
+
+    &lt;mxCell id="2" value="User (Browser)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"&gt;
+      &lt;mxGeometry x="40" y="200" width="140" height="60" as="geometry"/&gt;
+    &lt;/mxCell&gt;
+
+    &lt;mxCell id="3" value="Hotel Booking Web App&amp;#10;Spring Boot + Docker&amp;#10;(Serverless Container)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1"&gt;
+      &lt;mxGeometry x="260" y="180" width="220" height="100" as="geometry"/&gt;
+    &lt;/mxCell&gt;
+
+    &lt;mxCell id="4" value="Managed MySQL&amp;#10;(hotel, rooms, bookings)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1"&gt;
+      &lt;mxGeometry x="560" y="80" width="220" height="80" as="geometry"/&gt;
+    &lt;/mxCell&gt;
+
+    &lt;mxCell id="5" value="Object Storage&amp;#10;(Hotel Images)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1"&gt;
+      &lt;mxGeometry x="560" y="220" width="220" height="80" as="geometry"/&gt;
+    &lt;/mxCell&gt;
+
+    &lt;mxCell id="6" value="Container Registry&amp;#10;(Docker Images)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1"&gt;
+      &lt;mxGeometry x="260" y="40" width="220" height="80" as="geometry"/&gt;
+    &lt;/mxCell&gt;
+
+    &lt;mxCell id="7" value="Cloud DNS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" vertex="1" parent="1"&gt;
+      &lt;mxGeometry x="40" y="40" width="140" height="60" as="geometry"/&gt;
+    &lt;/mxCell&gt;
+
+    &lt;mxCell id="8" style="endArrow=block;" edge="1" parent="1" source="2" target="3"&gt;
+      &lt;mxGeometry relative="1" as="geometry"/&gt;
+    &lt;/mxCell&gt;
+
+    &lt;mxCell id="9" style="endArrow=block;" edge="1" parent="1" source="3" target="4"&gt;
+      &lt;mxGeometry relative="1" as="geometry"/&gt;
+    &lt;/mxCell&gt;
+
+    &lt;mxCell id="10" style="endArrow=block;" edge="1" parent="1" source="3" target="5"&gt;
+      &lt;mxGeometry relative="1" as="geometry"/&gt;
+    &lt;/mxCell&gt;
+
+    &lt;mxCell id="11" style="endArrow=block;" edge="1" parent="1" source="6" target="3"&gt;
+      &lt;mxGeometry relative="1" as="geometry"/&gt;
+    &lt;/mxCell&gt;
+
+    &lt;mxCell id="12" style="endArrow=block;" edge="1" parent="1" source="7" target="3"&gt;
+      &lt;mxGeometry relative="1" as="geometry"/&gt;
+    &lt;/mxCell&gt;
+
+  &lt;/root&gt;
+&lt;/mxGraphModel&gt;
+</diagram></mxfile>
