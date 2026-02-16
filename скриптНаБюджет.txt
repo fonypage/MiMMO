@@ -15,3 +15,40 @@ WHERE {
   ?smMat :stoimostMaterialovSumma ?mat .
   ?smRab :stoimostRabotSumma ?work .
 }
+
+stateDiagram
+    direction LR
+    
+    [*] --> Off
+    
+    state Off {
+        [*] --> OffState
+    }
+    
+    state Ready {
+        [*] --> ReadyState
+    }
+    
+    state Brewing {
+        [*] --> BrewingState
+    }
+    
+    state Error {
+        [*] --> ErrorState
+    }
+    
+    Off --> Ready: POWER (есть вода/зерна)
+    Off --> Error: POWER (нет воды/зерен)
+    Off --> Off: POWER 3 сек
+    
+    Ready --> Brewing: START
+    Ready --> Error: кончилась вода/зерна
+    Ready --> Off: POWER 3 сек
+    
+    Brewing --> Ready: через 2 минуты
+    Brewing --> Error: кончилась вода/зерна
+    Brewing --> Off: POWER 3 сек
+    
+    Error --> Ready: добавили воду/зерна
+    Error --> Off: POWER (любое)
+
